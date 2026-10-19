@@ -217,4 +217,15 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/
+
+# Fuentes de trabajo: la entrega versionada usa los PDF de docs.
+/docs/*.md
+/docs/**/*.md
+
+# Archivos de apoyo que se conservan solo en local.
+/docs/05_plan_validacion.*
+/docs/06_pitch.*
+/docs/08_verificacion_rubrica.*
+/docs/09_verificacion_tecnica.*
+/docs/pitch/
